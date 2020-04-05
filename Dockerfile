@@ -15,7 +15,7 @@ FROM alpine:3
 
 ENV DOCKERIZE_VERSION v0.6.1
 COPY ["hello.sh","/usr/local/bin/hello"]
-COPY ["cronrunner.crontab","/etc/crontabs/cronrunner"] 
+COPY ["cronrunner.crontab","/cron.d/cronrunner"] 
 
 RUN apk add --no-cache openssl && wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSION/dockerize-alpine-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
     && tar -C /usr/local/bin -xzvf dockerize-alpine-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
