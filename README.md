@@ -1,7 +1,7 @@
 crontainer
 ==========
 
-[![Docker Image Version (latest semver)](https://img.shields.io/docker/v/mwmahlberg/crontainer?label=docker%20image&sort=semver)]()
+![GitHub](https://img.shields.io/github/license/mwmahlberg/crontainer) [![Docker Image Version (latest semver)](https://img.shields.io/docker/v/mwmahlberg/crontainer?label=docker%20image&sort=semver)]() ![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/mwmahlberg/crontainer?sort=semver) ![Docker Pulls](https://img.shields.io/docker/pulls/mwmahlberg/crontainer) ![GitHub last commit](https://img.shields.io/github/last-commit/mwmahlberg/crontainer)
 
 A simple container running cronjobs.
 
